@@ -1,0 +1,65 @@
+*{ /* Reseteo general de estilos y configuración base para todos los elementos */
+    margin: 0; /* Elimina márgenes por defecto */
+    padding: 0; /* Elimina relleno por defecto */
+    box-sizing: border-box; /* Incluye borde y padding dentro del ancho total */
+    font-family: 'Segoe UI', sans-serif; /* Fuente principal para todo el sitio */
+    }
+
+/* Estilos generales del cuerpo del documento */
+body {
+    background: #2a130f; /* Color de fondo oscuro */
+    color: #e4e2f0; /* Color del texto principal (claro) */
+    padding: 20px; /* Espaciado interior para evitar que el contenido toque el borde */
+}
+
+/* Encabezado principal del sitio */
+header {
+    text-align: center; /* Centra el texto */
+    margin-bottom: 40px; /* Separación con el contenido que sigue */
+}
+
+/* Título dentro del encabezado */
+header h1 {
+    font-size: 2.5em; /* Tamaño grande para el título */
+    color: #38bdf8; /* Color azul claro */
+}
+
+/* Subtítulo o descripción en el encabezado */
+header p {
+    font-size: 1.2em; /* Tamaño intermedio */
+    color: #94a3b8; /* Gris claro */
+}
+
+/* Contenedor principal de las tarjetas, usa un diseño en cuadrícula */
+.contenedor {
+    display: grid; /* Activa el sistema de grid */
+    gap: 20px; /* Espacio entre columnas/filas */
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Columnas adaptables según ancho disponible */
+}
+
+/* Estilo individual para cada tarjeta de contenido */
+.tarjeta {
+    background-color: #1e293b; /* Fondo oscuro intermedio */
+    border-radius: 20px; /* Bordes redondeados */
+    padding: 20px; /* Espaciado interno */
+    box-shadow: 0 0 10px #0ea5e9; /* Sombra azul alrededor */
+    transition: transform 0.2s ease; /* Animación suave para el efecto hover */
+}
+
+/* Efecto al pasar el mouse sobre una tarjeta */
+.tarjeta:hover {
+    transform: translateY(-5px); /* Desplaza ligeramente hacia arriba */
+}
+
+/* Títulos dentro de las tarjetas */
+.tarjeta h2 {
+    color: #38bdf8; /* Color azul claro */
+    margin-bottom: 10px; /* Separación con el texto que sigue */
+}
+
+/* Pie de página del sitio */
+footer {
+    text-align: center; /* Centra el texto */
+    margin-top: 50px; /* Separación con el contenido anterior */
+    color: #64748b; /* Gris más tenue */
+}
