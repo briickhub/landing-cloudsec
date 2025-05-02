@@ -49,7 +49,7 @@ http://localhost:8080
 ## 📦 Tecnologías utilizadas
 
 - **HTML + CSS**: Para estructura y diseño del sitio
-- **Docker**: Para contenerizar el entorno
+- **Docker**: Para contenerizar nuestro entorno
 - **Nginx**: Servidor web ligero para sitios estáticos
 
 ---

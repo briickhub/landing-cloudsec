@@ -2,7 +2,7 @@
     margin: 0; /* Elimina márgenes por defecto */
     padding: 0; /* Elimina relleno por defecto */
     box-sizing: border-box; /* Incluye borde y padding dentro del ancho total */
-    font-family: 'Segoe UI', sans-serif; /* Fuente principal para todo el sitio */
+    font-family: 'Segoe UI', sans-serif; /* Fuente principal que usará el sitio */
     }
 
 /* Estilos generales del cuerpo del documento */
